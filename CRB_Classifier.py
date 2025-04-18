@@ -55,7 +55,7 @@ if uploaded_file is not None:
     display_size = (300, 300)  # Adjust the size as needed
     resized_image = image.resize(display_size)
 
-    st.image(resized_image, caption='Uploaded Image.', use_column_width=False)
+    st.image(resized_image, caption='Uploaded Image.', use_container_width=False)
     st.write("")
     st.write("Classifying...")
 
